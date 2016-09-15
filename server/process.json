@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name"       : "mConnect",
+    "script"     : "./bin/www",
+    "watch"      : true,
+    "instances"  : 1,
+    "exec_mode"  : "cluster"
+  }]
+}

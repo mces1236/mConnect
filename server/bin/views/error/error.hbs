@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Head-->
+<head>
+    <meta charset="utf-8" />
+    <title>Error 404 - Page Not Found</title>
+
+    <meta name="description" content="404 - Page Not Found" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<!--Head Ends-->
+<!--Body-->
+<body class="body-404">
+    <div class="error-header">
+	<div class="medlife-logo"></div></div>
+    <div class="container">
+        <section class="error-container text-center">
+            <h1>{{error.status}}</h1>
+            <div class="error-divider">
+                <h3>{{message}}</h3>
+                {{#if devMessage}}<h4 class="description">{{devMessage}}</h4>{{/if}}
+                {{#if error.stack}}<div class="errorScroll"><p><pre>{{error.stack}}</pre></p></div>{{/if}}
+            </div>
+        </section>
+    </div>
+</body>
+<!--Body Ends-->
+</html>

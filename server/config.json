@@ -1,0 +1,17 @@
+{
+    "sessionKey":"mConnectRocks",
+    "alloworigins":["localhost","*"],
+    "mongo": {
+        "db": "mongodb://localhost:27017/mConnect",
+        "prefix":"mc_"
+    },
+    "serverPort":{
+      "mConnect-Server":3001
+    },
+    "chatId":{
+      "sequence" : "000000001",
+      "prefix" : "MC"
+    },
+    "oAuth":false,
+    "version": "v1"
+}

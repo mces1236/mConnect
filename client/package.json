@@ -1,0 +1,30 @@
+{
+  "name": "mConnect-Client",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+  },
+  "description": "Open Source communication platform for Chat,Audio &amp; Video connects through Web, Mobile and Tablets",
+  "author": "Muthaiah Thiagarajan <muthaiah.thiagarajan@fmass.com> (http://www.fmass.com/)",
+  "contributors" : [
+    "Muthaiah Thiagarajan <muthaiah.thiagarajan@fmass.com> (http://www.fmass.com/)"
+  ],
+  "license": "MIT",
+  "engines" : {
+    "node" : ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muthufmass/mConnect.git"
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-zip": "^3.2.0",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    
+  }
+}

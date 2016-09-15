@@ -1,0 +1,54 @@
+{
+  "name": "mConnect-Server",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "start": "cd build; pm2 delete ./process.json; pm2 start ./process.json"
+  },
+  "description": "Open Source communication platform for Chat,Audio &amp; Video connects through Web, Mobile and Tablets",
+  "author": "Muthaiah Thiagarajan <muthaiah.thiagarajan@fmass.com> (http://www.fmass.com/)",
+  "contributors": [
+    "Muthaiah Thiagarajan <muthaiah.thiagarajan@fmass.com> (http://www.fmass.com/)"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muthufmass/mConnect.git"
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-zip": "^3.2.0",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "crypto": "0.0.3",
+    "debug": "^2.2.0",
+    "eventemitter2": "^0.4.14",
+    "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "hbs": "^4.0.0",
+    "history": "^1.17.0",
+    "http-proxy": "^1.13.0",
+    "ipware": "0.0.7",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.13.0",
+    "mongodb": "^2.1.4",
+    "mongoose": "^4.3.6",
+    "morgan": "^1.6.1",
+    "nconf": "^0.8.2",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "winston": "^2.1.1"
+  }
+}
